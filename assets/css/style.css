@@ -829,6 +829,10 @@ main {
   line-height: 1.6;
 }
 
+.timeline-item-subtitle {
+  color: var(--white-2);
+  font-style: italic;
+}
 
 /**
  * skills 
@@ -1870,6 +1874,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
+
+
+  /*-----------------------------------*\
+  #CUSTOM FIXES
+\*-----------------------------------*/
+
+/* Subtitle under each experience entry */
+.timeline-item-subtitle {
+  color: var(--light-gray);
+  font-style: italic;
+  font-size: var(--fs-6);
+  margin-bottom: 4px;
+  display: block;
+}
 
 
 
